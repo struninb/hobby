@@ -1,0 +1,12 @@
+#sections {
+    width:80vw;
+    margin:20px auto;
+}
+
+.card {padding:0px;}
+
+.hero {
+    background-image: url(../images/heroimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

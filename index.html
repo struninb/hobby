@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -30,7 +33,7 @@
 
     <body>
         <!--Nav Start-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light mynav">
             <a class="navbar-brand" href="#">Teach yourself Korean</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -60,33 +63,85 @@
     </div>
   </div>
 <!--Jumbotron End-->
-
+<div class="text col-8" style="margin:0 auto;">
+Korean (South Korean: 한국어, hangugeo; North Korean: 조선말, chosŏnmal) is an East Asian language spoken by about 80 million people,[a] mainly Korean, as of 2020.[2] It is the official and national language of both North Korea and South Korea (originally Korea), with different standardized official forms used in each country. It is a recognised minority language in the Yanbian Korean Autonomous Prefecture and Changbai Korean Autonomous County of Jilin Province, China. It is also spoken in parts of Sakhalin, Russia and Central Asia.
+</div>
 <!--Cards Begin-->
 <div id="sections">
     <div class="row">
         <div class="card col-sm-12 col-md-4 col-lg-4" >
-            <a href=""><img class="card-img-top" src="images/hangul.jpg" ></a>
+            <a href="#hangul"><img class="card-img-top" src="images/hangul.jpg" ></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Let's learn a bit about the origin of Hangul!</p>
             </div>
           </div>
 
           <div class="card col-sm-12 col-md-4 col-lg-4" >
-            <a href=""><img class="card-img-top" src="images/words.jpg" ></a>
+            <a href="#words"><img class="card-img-top" src="images/words.jpg" ></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Time for a bit of Korean spelling, don't worry, it's not a pop quiz!</p>
             </div>
           </div>
 
           <div class="card col-sm-12 col-md-4 col-lg-4" >
-            <a href=""><img class="card-img-top" src="images/speaking.jpg" ></a>
+            <a href="#grammar"><img class="card-img-top" src="images/speaking.jpg" ></a>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Round out the basics with a peek at some Korean grammar!</p>
             </div>
           </div>
 
     </div>
 </div>
 <!--Cards End-->
+<div class="container-fluid content">
+<div class="row valueProp" id="hangul">
+  <div class="sideAccent">
+  </div>
+  <div class="imageContainer col-3">
+    <img src="images/hangul.jpg">
+  </div>
+  <div class="text col-8">
+    <h3>About Hangul</h3>
+    <p>
+      In the 15th century, King Sejong the Great personally developed an alphabetic featural writing system known today as Hangul. He felt that Hanja was inadequate to write Korean and that this was the cause of its very restricted use; Hangul was designed to either aid in reading Hanja or replace Hanja entirely. Introduced in the document Hunminjeongeum, it was called eonmun (colloquial script) and quickly spread nationwide to increase literacy in Korea. Hangul was widely used by all the Korean classes, but often treated as amkeul ("script for women") and disregarded by privileged elites, whereas Hanja was regarded as jinseo ("true text"). Consequently, official documents were always written in Hanja during the Joseon era. Since most people couldn't understand Hanja, Korean kings sometimes released public notices entirely written in Hangul as early as the 16th century for all Korean classes, including uneducated peasants and slaves. By the 17th century, the elite class of Yangban exchanged Hangul letters with their slaves, suggesting a high literacy rate of Hangul during the Joseon era.
+<br>
+      Today, Hanja is largely unused in everyday life due to its inconvenience, but it is still important for historical and linguistic studies. Neither South Korea nor North Korea opposes the learning of Hanja, though they are not officially used in North Korea anymore, and their usage in South Korea is mainly reserved for specific circumstances, such as newspapers, scholarly papers, and disambiguation.
+          </p>
+  </div>
+</div>
+
+<div class="row valueProp" id="words">
+  <div class="sideAccent">
+  </div>
+  <div class="imageContainer col-3">
+    <img src="images/hangul.jpg">
+  </div>
+  <div class="text col-8">
+    <h3>About Korean Words</h3>
+    <p>
+      Korean spelling is complicated. Words are usually written morphophonemically rather than phonemically, so that a given element is seen in a constant form, even though its pronunciation may vary when it is joined with other elements. For example, the word for ‘price’ is always spelled kaps though it is pronounced /kap/ in isolation and /kam/ in kaps-man ‘just the price.’ From the 15th century on there has been a steady trend toward ignoring predictable alternants.          </p>
+
+  </div>
+</div>
+
+
+<div class="row valueProp" id="grammar">
+  <div class="sideAccent">
+  </div>
+  <div class="imageContainer col-3">
+    <img src="images/hangul.jpg">
+  </div>
+  <div class="text col-8">
+    <h3>About Korean Grammar</h3>
+    <p>
+      Korean nouns 명사(名詞) myeongsa (also called 이름씨 ireumssi) do not have grammatical gender, and though they can be made plural by adding the suffix 들 deul to the end of the word, in general the suffix is not used when the plurality of the noun is clear from context. For example, while the English sentence "there are three apples" would use the plural "apples" instead of the singular "apple", the Korean sentence 사과가 세 개 있습니다 Sagwaga se gae itseumnida "(lit.) apple three(things) exist" keeps the word 사과 sagwa "apple" in its unmarked form, as the numeral makes the plural marker redundant.
+<br>
+      The most basic, fundamental Korean vocabulary is native to the Korean language, e.g. 나라 nara "country", 날 nal "day". However, a large body of Korean nouns stem from the Korean pronunciation of Chinese characters e.g. 산(山) san "mountain", 역(驛) yeok "station", 문화(文化) munhwa "culture", etc. Many Sino-Korean words have native Korean equivalents and vice versa, but not all. The choice of whether to use a Sino-Korean noun or a native Korean word is a delicate one, with the Sino-Korean alternative often sounding more profound or refined. It is in much the same way that Latin- or French-derived words in English are used in higher-level vocabulary sets (e.g. the sciences), thus sounding more refined – for example, the native Germanic "ask" versus Romance "inquire".          </p>
+  </div>
+</div>
+
+</div>
+
+
     </body>
 </html>

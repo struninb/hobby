@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -30,8 +33,7 @@
 
     <body>
         <!--Nav Start-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Teach yourself Korean</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light mynav">            <a class="navbar-brand" href="#">Teach yourself Korean</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,6 +52,33 @@
             </div>
           </nav>
 <!--Nav End-->
+<!--Cards Begin-->
+<div id="sections">
+  <div class="row">
+      <div class="card col-sm-12 col-md-4 col-lg-4" >
+          <a href=""><img class="card-img-top" src="images/tofugo.jpg" ></a>
+          <div class="card-body">
+            <p class="card-text">Learn Japanese at <a href="https://www.tofugu.com/learn-japanese/">Tofugo</a>!</p>
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-4 col-lg-4" >
+          <a href=""><img class="card-img-top" src="images/duolingo.png" ></a>
+          <div class="card-body">
+            <p class="card-text">Use <a href="https://www.duolingo.com/">Duolingo</a> to learn any language!</p>
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-4 col-lg-4" >
+          <a href=""><img class="card-img-top" src="images/maangchi.jfif" ></a>
+          <div class="card-body">
+            <p class="card-text">Let <a href="https://www.maangchi.com/">Maangchi</a> teach you to cook Korean food at home!</p>
+          </div>
+        </div>
+
+  </div>
+</div>
+<!--Cards End-->
 
 
     </body>
